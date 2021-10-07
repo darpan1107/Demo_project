@@ -8,11 +8,12 @@ int main()
     cout << "Enter two integers: ";
     cin >> firstNumber >> secondNumber;
 
-  // sum of two numbers in stored in variable diffOfTwoNumbers
+   //sum of two numbers in stored in variable diffOfTwoNumbers
     diffOfTwoNumbers = firstNumber - secondNumber;
 
     // Prints difference 
+    cout<<"The difference is"<<endl;
     cout << firstNumber << " - " <<  secondNumber << " = " << diffOfTwoNumbers;     
-
+   
     return 0;
 }
